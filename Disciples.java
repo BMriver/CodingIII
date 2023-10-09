@@ -16,11 +16,11 @@ public class Disciples {
 	        return years;
 	    }
 
-	    // Function to find out how many disciples should start with to cover 7.7 billion in 50 years
+	    // Function to find out how many disciples should start with to cover 7.7 billion people
 	    public static long disciplesForFiftyYears() {
 	        long initialDisciples = 1;  // Starting with a hypothetical number
 	        long totalHumans = 7700000000L;
-	        int maxYears = 50;
+	        int maxYears = 50; // it has to be done in 50 years 
 
 	        while (true) {
 	            long currentDisciples = initialDisciples;
